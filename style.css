@@ -41,9 +41,17 @@ body {
 
 #TopPageLink li {
   display: inline;
-  color: #FFF;
   margin: 0 5px;
   font-size: 12px;
+}
+
+#TopPageLink li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#TopPageLink li a:hover {
+  color: #4287f5;
 }
 
 #Logo {
@@ -60,4 +68,13 @@ body {
   display: inline;
   margin: 0 20px;
   font-size: 14px;
+}
+
+#NavBarLinks li a {
+  color: #163860;
+  text-decoration: none;
+}
+
+#NavBarLinks li a:hover {
+  color: #4287f5;
 }
