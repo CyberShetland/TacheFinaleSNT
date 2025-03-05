@@ -19,7 +19,7 @@ body {
   width: 100%;
   border-bottom: solid 4px #163860;
   padding: 0;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Source Sans 3" sans-serif;
   font-weight: 550;
   position: sticky;
   top: 0;
@@ -52,6 +52,38 @@ body {
 
 #TopPageLink li a:hover {
   color: #4287f5;
+}
+
+#TopPageLink #Search {
+  margin-right: 200px;
+}
+
+#TopPageLink #Search svg {
+  width: 12px;
+  height: 16px;
+  vertical-align: text-bottom;
+  margin-right: 5px;
+  fill: #FFF;
+}
+
+#TopPageLink #Search:hover svg {
+  fill: #4287f5;
+}
+
+#TopPageLink #Login {
+  margin-left: 200px;
+}
+
+#TopPageLink #Login svg {
+  width: 12px;
+  height: 16px;
+  vertical-align: text-bottom;
+  margin-right: 5px;
+  fill: #FFF;
+}
+
+#TopPageLink #Login:hover svg {
+  fill: #4287f5;
 }
 
 #Logo {
