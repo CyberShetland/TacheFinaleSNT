@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
   display: flex;
@@ -23,7 +23,7 @@ body {
   position: sticky;
   font-family: "Source Sans 3", sans-serif;
   top: 0;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 #TopPageBar {
@@ -46,7 +46,7 @@ body {
 }
 
 #TopPageLink li a {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ body {
   height: 16px;
   vertical-align: text-bottom;
   margin-right: 5px;
-  fill: #FFF;
+  fill: #fff;
 }
 
 #TopPageLink #Search:hover svg {
@@ -79,7 +79,7 @@ body {
   height: 16px;
   vertical-align: text-bottom;
   margin-right: 5px;
-  fill: #FFF;
+  fill: #fff;
 }
 
 #TopPageLink #Login:hover svg {
