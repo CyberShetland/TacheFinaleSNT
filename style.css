@@ -2,111 +2,183 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0;
-  font-family: "Noto Serif", serif;
-  color: #163860;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Noto Serif", serif;
+    color: #163860;
 }
 
 #NavBar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  border-bottom: solid 4px #163860;
-  padding: 0;
-  font-weight: 550;
-  position: sticky;
-  font-family: "Source Sans 3", sans-serif;
-  top: 0;
-  background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: solid 4px #163860;
+    padding: 0;
+    font-weight: 550;
+    position: sticky;
+    font-family: "Source Sans 3", sans-serif;
+    top: 0;
+    background-color: #fff;
 }
 
 #TopPageBar {
-  background-color: #163860;
-  height: 40px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-color: #163860;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #TopPageLink {
-  list-style: none;
+    list-style: none;
 }
 
 #TopPageLink li {
-  display: inline;
-  margin: 0 5px;
-  font-size: 12px;
+    display: inline;
+    margin: 0 5px;
+    font-size: 12px;
 }
 
 #TopPageLink li a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 #TopPageLink li a:hover {
-  color: #4287f5;
+    color: #4287f5;
 }
 
 #TopPageLink #Search {
-  margin-right: 200px;
+    margin-right: 200px;
 }
 
 #TopPageLink #Search svg {
-  width: 12px;
-  height: 16px;
-  vertical-align: text-bottom;
-  margin-right: 5px;
-  fill: #fff;
+    width: 12px;
+    height: 16px;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+    fill: #fff;
 }
 
 #TopPageLink #Search:hover svg {
-  fill: #4287f5;
+    fill: #4287f5;
 }
 
 #TopPageLink #Login {
-  margin-left: 200px;
+    margin-left: 200px;
 }
 
 #TopPageLink #Login svg {
-  width: 12px;
-  height: 16px;
-  vertical-align: text-bottom;
-  margin-right: 5px;
-  fill: #fff;
+    width: 12px;
+    height: 16px;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+    fill: #fff;
 }
 
 #TopPageLink #Login:hover svg {
-  fill: #4287f5;
+    fill: #4287f5;
 }
 
 #Logo {
-  width: 18%;
-  margin: 10px;
+    width: 18%;
+    margin: 10px;
 }
 
 #NavBarLinks {
-  list-style: none;
-  margin: 8px 0;
+    list-style: none;
+    margin: 8px 0;
 }
 
 #NavBarLinks li {
-  display: inline;
-  margin: 0 20px;
-  font-size: 14px;
+    display: inline;
+    margin: 0 20px;
+    font-size: 14px;
 }
 
 #NavBarLinks li a {
-  color: #163860;
-  text-decoration: none;
+    color: #163860;
+    text-decoration: none;
 }
 
 #NavBarLinks li a:hover {
-  color: #4287f5;
+    color: #4287f5;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    border-top: solid 1px #CCC;
+    padding: 16px;
+}
+
+#HeaderTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#PageBody {
+    width: 35%;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 40px 0 12px 0;
+    font-weight: 700;
+}
+
+#Author {
+    font-size: 16px;
+    color: #727272;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+#AuthorLine {
+    width: 96px;
+    height: 1px;
+    background-color: #CCC;
+    margin: 15px 0 10px 0;
+}
+
+#Themes a {
+    color: #163860;
+    font-size: 14px;
+    font-family: "Source Sans 3", sans-serif;
+    margin-right: 10px;
+}
+
+video {
+    width: 100%;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    margin: 15px 32px;
+}
+
+.italique {
+    font-style: italic;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #163860;
 }
