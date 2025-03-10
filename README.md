@@ -10,4 +10,4 @@ J'ai été très minutieux dans les détails car je voulais que ce soit le plus 
 ![Header](/readme/header.png)
 J'ai bien pensé à ajouter le favicon du [Figaro](https://lefigaro.fr/) et j'ai recopié le `<title>`.
 ## Galerie
-![FullPage](/readme/fullpage.png)
+![FullPage](/readme/full.png)
