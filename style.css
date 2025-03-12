@@ -161,6 +161,32 @@ h1 {
     margin-right: 10px;
 }
 
+#copy {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #163860;
+    font-family: "Source Sans 3", sans-serif;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 80px;
+    padding: 8px 12px;
+}
+
+#copy svg {
+    width: 14px;
+    height: 14px;
+    vertical-align: text-top;
+    fill: #163860;
+}
+
+#copy:hover {
+    color: #4287f5;
+}
+
+#copy:hover svg {
+    fill: #4287f5;
+}
+
 video {
     width: 100%;
     margin-top: 15px;
