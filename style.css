@@ -24,7 +24,7 @@ body {
     font-family: "Source Sans 3", sans-serif;
     top: 0;
     background-color: #fff;
-    z-index: auto;
+    z-index: 2;
 }
 
 #TopPageBar {
@@ -119,6 +119,7 @@ header {
     background-color: #fff;
     border-top: solid 1px #CCC;
     padding: 16px;
+    z-index: 2;
 }
 
 #HeaderTitle {
