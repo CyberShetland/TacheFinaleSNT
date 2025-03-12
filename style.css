@@ -192,6 +192,12 @@ video {
     margin-top: 15px;
 }
 
+.figcaption {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 h2 {
     font-size: 20px;
     font-weight: 700;
