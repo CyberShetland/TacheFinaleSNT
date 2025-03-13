@@ -51,7 +51,7 @@ body {
     text-decoration: none;
 }
 
-#TopPageLink li a:hover {
+#TopPageLink li:hover a {
     color: #4287f5;
 }
 
@@ -160,6 +160,10 @@ h1 {
     font-family: "Source Sans 3", sans-serif;
     margin-right: 10px;
 }
+
+#Themes a:hover {
+    color: #4287f5;
+} 
 
 #copy {
     font-size: 14px;
